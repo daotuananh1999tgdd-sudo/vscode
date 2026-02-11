@@ -49,7 +49,7 @@ export function getUpdateRequestHeaders(productVersion: string): Record<string, 
 }
 
 export type UpdateErrorClassification = {
-	owner: 'joaomoreno';
+	owner: 'benben';
 	messageHash: { classification: 'SystemMetaData'; purpose: 'FeatureInsight'; comment: 'The hash of the error message.' };
 	comment: 'This is used to know how often VS Code updates have failed.';
 };
